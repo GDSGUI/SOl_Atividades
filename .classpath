@@ -9,5 +9,9 @@
 	<classpathentry kind="src" path="Segunda_Atividade"/>
 	<classpathentry kind="src" path="Quarta_Atividade"/>
 	<classpathentry kind="src" path="Terceira_Atividade"/>
+	<classpathentry kind="src" path="Quinta_Atividade"/>
+	<classpathentry kind="src" path="Sexta_Atividade"/>
+	<classpathentry kind="src" path="Setima_Atividade"/>
+	<classpathentry kind="src" path="Oitava_Atividade"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
