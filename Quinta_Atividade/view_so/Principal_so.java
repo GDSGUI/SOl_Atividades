@@ -8,7 +8,7 @@ public class Principal_so {
 		Processo_so process_so = new Processo_so();
 		
 		String process = "Windows 10";
-		process_so.Processo_so(process);
+		process_so.Processoso(process);
 		
 	}
 

@@ -2,7 +2,7 @@ package controller_so;
 
 public class Processo_so {
 	
-	public void Processo_so (String process) {
+	public void Processoso (String process) {
 		String SO = System.getProperty("os.name");
 		if (SO.contains("Windows")) {
 			System.out.println("O Sistema Operacional é: "+SO);
