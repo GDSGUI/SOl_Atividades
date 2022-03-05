@@ -5,7 +5,7 @@ package view;
 cada uma delas imprima no console o seu
 número
  */
-import controller.Processo_Threads;
+import controller.Processo_Thread;
 
 public class Principal_Threads {
 
@@ -13,7 +13,7 @@ public class Principal_Threads {
 		System.out.println("Processo Thread Aleatorio:");
 		
 		for (int IdThread = 0; IdThread < 5; IdThread++) {
-			Processo_Threads process_thread = new Processo_Threads(IdThread);
+			Processo_Thread process_thread = new Processo_Thread(IdThread);
 			process_thread.start();
 		}
 	}
