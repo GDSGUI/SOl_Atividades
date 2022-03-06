@@ -1,10 +1,10 @@
 package controller;
 
-public class Processo_Thread_Sapo extends Thread{
+public class Processo_ThreadSapo extends Thread{
 	private int Sapo [][];
 	private int Posicao_Sapo;
 	
-	public Processo_Thread_Sapo (int Anda_Sapo, int Posicao_Sapo, int Distancia, int Area_Percorrida,int Posicao, int Distancia1, int Sapo[][]) {
+	public Processo_ThreadSapo (int Anda_Sapo, int Posicao_Sapo, int Distancia, int Area_Percorrida,int Posicao, int Distancia1, int Sapo[][]) {
 		this.Posicao_Sapo = Posicao_Sapo;
 		this.Sapo = Sapo;
 		Posicao = 0;
