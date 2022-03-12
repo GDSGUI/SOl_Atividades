@@ -20,34 +20,34 @@ public class Processo_Semafaro extends Thread{
 	private void tempoCalculo() {
 		if (idThread %3 == 1) {
 		tempoBD = 1000;
-		tempoCalculo = (Math.random() * 800) + 200;
+		tempoCalculo = (Math.random() * 801) + 200;
 		transacaoBD();
 		gravaBD();
-		tempoCalculo = (Math.random() * 800) + 200;
+		tempoCalculo = (Math.random() * 801) + 200;
 		transacaoBD();
 		gravaBD();
 		}
 		else if (idThread %3 == 2) {
 		tempoBD = 1500;
-			tempoCalculo = (Math.random() * 500) + 1000;
+			tempoCalculo = (Math.random() * 501) + 1000;
 			transacaoBD();
 			gravaBD();
-			tempoCalculo = (Math.random() * 500) + 1000;
+			tempoCalculo = (Math.random() * 501) + 1000;
 			transacaoBD();
 			gravaBD();
-			tempoCalculo = (Math.random() * 500) + 1000;
+			tempoCalculo = (Math.random() * 501) + 1000;
 			transacaoBD();
 			gravaBD();
 		}
 		else if (idThread %3 == 0) {
 		tempoBD = 2000;
-			tempoCalculo = (Math.random() * 1000) + 1000;
+			tempoCalculo = (Math.random() * 1001) + 1000;
 			transacaoBD();
 			gravaBD();
-			tempoCalculo = (Math.random() * 1000) + 1000;
+			tempoCalculo = (Math.random() * 1001) + 1000;
 			transacaoBD();
 			gravaBD();
-			tempoCalculo = (Math.random() * 1000) + 1000;
+			tempoCalculo = (Math.random() * 1001) + 1000;
 			transacaoBD();
 			gravaBD();
 		}
