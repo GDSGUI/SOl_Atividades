@@ -19,5 +19,10 @@
 	<classpathentry kind="src" path="Decima_Segunda_Atividade"/>
 	<classpathentry kind="src" path="Decima_Terceira_Atividade"/>
 	<classpathentry kind="src" path="Decima_Quarta_Atividade"/>
+	<classpathentry kind="src" path="Decima_Quinta_Atividade"/>
+	<classpathentry kind="src" path="Decima_Sexta_Atividade"/>
+	<classpathentry kind="src" path="Decima_Setima_Atividade"/>
+	<classpathentry kind="src" path="Decima_Oitava_Atividade"/>
+	<classpathentry kind="src" path="Decima_Nona_Atividade"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
