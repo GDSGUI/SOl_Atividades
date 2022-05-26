@@ -9,8 +9,8 @@ public class PRINCIPAL {
 	public static void main(String[] args) throws IOException {
 		
 		ArquivosController arqCont = new ArquivosController();
-		String path = "C:\\planilha";
-		String nome = "food";
+		String path = "C:\\Aulas";
+		String nome = "foods";
 		
 		arqCont.readFile(path, nome);
 	}
