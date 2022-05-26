@@ -27,7 +27,7 @@ public class ArquivosController implements IArquivosController {
 				BufferedReader buffer = new BufferedReader(leitor);
 				String linha = buffer.readLine();
 				List<List<String>> rows = new ArrayList<>();
-				List<String> headers = Arrays.asList("C”DIGO", "FOOD NAME", "SCIENTIFIC NAME", "SUBGROUP");
+				List<String> headers = Arrays.asList("C√ìDIGO", "FOOD NAME", "SCIENTIFIC NAME", "SUBGROUP");
 				rows.add(headers);
 				int contador = 0;
 				while (linha != null) {
@@ -44,10 +44,10 @@ public class ArquivosController implements IArquivosController {
 				leitor.close();
 				fluxo.close();
 			} else {
-				throw new IOException("Arquivo inv·lido");
+				throw new IOException("Arquivo inv√°lido");
 			}
 		} else {
-			throw new IOException("DiretÛrio inv·lido");
+			throw new IOException("Diret√≥rio inv√°lido");
 		}
 	}
 
